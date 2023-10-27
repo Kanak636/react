@@ -1,9 +1,5 @@
 import React from "react";
-import SearchIcon from '@mui/icons-material/Search';
 import "./topbar.css";
-import PersonIcon from '@mui/icons-material/Person';
-import NotificationsIcon from '@mui/icons-material/Notifications';
-import ChatIcon from '@mui/icons-material/Chat';
 import { Link } from "react-router-dom";
 
 
@@ -26,16 +22,7 @@ function Topbar(){
             <span className="topbarLink"><Link to="/details">GenerateCertificate</Link></span>
             <span className="topbarLink"><Link to="/upload">History</Link></span>
         </div>
-        <div className="topbarIcons">
-        <div className="topbarIconItem">
-            <NotificationsIcon />
-            <span className="topbarIconBadge">2</span>
-        </div>
-        <div className="topbarIconItem">
-            <ChatIcon />
-            <span className="topbarIconBadge">1</span>
-        </div>
-        </div>
+    
     </div>
  </div>
     )
